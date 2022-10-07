@@ -1,0 +1,73 @@
+#top-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 4px 2px rgb(17, 16, 16 );
+    padding: 15px 0;
+    min-height: 8vh;
+   
+    position: fixed;
+    z-index: 50;
+    background-color: #fff;
+}
+#logo a{
+    text-decoration: none;
+    color: #000;
+}
+#logo a h4{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+#logo a h4 span{
+    color: #009688;
+    letter-spacing: 1px;
+    font-weight: 1000;
+}
+.nav-links{
+    
+    right: 0;
+    height: 9vh;
+    top: 10.4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* transform: translateX(100%); */
+    transition: 0.5s ease-in;
+    /* background: #009688; */
+    z-index: 100;
+    padding-top: 8px;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.icons{
+    display: flex;
+    color: rgb(27, 25, 25);
+    margin: 10px;
+
+
+}
+.icons .cart{
+    position: relative;
+}
+.icons .cart a span{
+    color: #fff;
+    background-color: #009688;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 5px 8px;
+    position: absolute;
+    top: 0;
+    margin: 10px;
+
+}
